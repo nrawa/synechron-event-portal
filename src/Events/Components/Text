@@ -1,0 +1,85 @@
+1.Why do we need arrow functions?
+-don't have implicit binding with this keyword
+
+2.caniuse.com
+-html5 & css
+
+3.https://compat-table.github.io/compat-table/es6/
+
+4.react helmet
+
+5.imperative & declarative programming language
+
+6.react compiler
+
+7.esm on mdn - ECMAScript module
+
+8.speedy web compiler
+
+//Private data members
+ #_pageTitle = 'Welcome To Event List! Pune!';
+    #_pageSubTitle = 'Published by Synechron HR Team! India!';
+
+https://docs.emmet.io/cheat-sheet/
+
+
+React Assignment:
+1.Create employees-list and employee-details component in a feature folder called Employees.
+Use the service to share the data between these components.
+Use reducer to manage the state of EmployeesList component.
+EmployeeDetails will be the child of EmployeesList component.
+
+Name,Phone,City,Email
+
+2.Ascending/Descending of each column
+
+3.Add Search Events textbox on top of screen. Add functionality to filter for Event Name.
+Search should be in case sensitive.
+
+
+ORDBMS (R stands for Relation = Table)
+-Oracle, MySQL, MS SQL Server,....
+Databases
+	Tables
+
+NoSQL
+MongoDB Server
+	Databases
+	Collection - contains no. of documents - (JSON like obj)
+
+Commands:
+show dbs; - list out dbs
+db; - shows your db
+use synechron-dec-2024-dec-events-db; - create database
+
+db.createCollection("events"); - create collection
+show collections - shows list of collections
+
+//insertion of data
+To insert 1 
+-  db.users.insertOne({email:'alisha.c@synechron.com', password:'Welcome@123',role:'Hr'})
+
+To insert many records
+- db.users.insertMany([])
+[] - is Array of objects
+
+Find your collection/data:
+ db.users.find()
+
+find with Where condition
+-db.users.find({email:'alisha.c@synechron.com'})
+
+
+find first record
+- db.users.findOne();
+
+find with specific id
+db.events.findOne({eventId:1003});
+
+delete many
+db.users.deleteMany({})
+
+https://codepen.io/pravinkumarcode/pen/zYLZwep
+
+
+

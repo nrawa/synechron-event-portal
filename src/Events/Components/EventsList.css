@@ -1,0 +1,12 @@
+h1{
+    color:red;
+}
+
+.pageSubTitle{
+    color:blue;
+}
+
+.searchBox{
+    margin-left: 8px;
+    border-radius: 2px;
+}
